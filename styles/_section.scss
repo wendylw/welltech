@@ -1,0 +1,86 @@
+section {
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.section {
+  &__title {
+    margin-bottom: 10px;
+  }
+}
+
+.section-blue {
+  padding: 70px 0;
+  color: $white;
+  background-color: $main-color;
+}
+
+.about-company {
+  &__content {
+    margin: 0 auto;
+    max-width: 300px;
+
+    p {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.qualifications {
+  padding: 70px 0;
+
+  .section__title {
+    color: $main-color;
+  }
+
+  &__item {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    border: 1px solid $lightest-gray;
+  }
+
+  &__one {
+    background-image: url(../img/home-qualification-1.jpg);
+  }
+
+  &__two {
+    background-image: url(../img/home-qualification-2.jpg);
+  }
+
+  &__three {
+    background-image: url(../img/home-qualification-3.jpg);
+  }
+}
+
+.introduction,
+.culture {
+  padding: 70px 0;
+
+  &__item {
+    margin-bottom: 40px;
+  }
+
+  .section__title {
+    color: $main-color;
+  }
+
+  &__item-title {
+    margin-bottom: 0;
+  }
+}
+
+.structure {
+  padding: 70px 0;
+
+  .section__title {
+    color: $main-color;
+  }
+
+  &__image {
+    margin: 20px auto 0;
+    max-width: 750px;
+  }
+}
