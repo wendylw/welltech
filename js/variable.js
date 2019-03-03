@@ -1,0 +1,4 @@
+var COMPLETED_PROJECT = [{
+}];
+
+var CURRENT_PROJECT = [{}];
