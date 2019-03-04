@@ -78,10 +78,16 @@
 
   &__description {
     padding: 40px;
+    font-size: 1.6rem;
     background-color: $lighter-gray;
+
+    h4, p {
+      font-size: inherit;
+    }
   }
 
   &__description-title {
     margin: 0 0 30px;
+    font-size: 2.4rem;
   }
 }
