@@ -84,10 +84,23 @@
     h4, p {
       font-size: inherit;
     }
+
+    h4 {
+      font-weight: bold;
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.7em;
+    }
   }
 
   &__description-title {
     margin: 0 0 30px;
     font-size: 2.4rem;
+  }
+
+  &__description-content {
+    margin: 10px 0 0;
   }
 }
