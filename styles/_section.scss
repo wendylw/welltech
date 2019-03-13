@@ -115,6 +115,14 @@ section {
       line-height: 1.8em;
     }
   }
+
+  &__address {
+    margin-right: 0;
+  }
+
+  &__map {
+    padding: 0;
+  }
 }
 
 .email-address {
