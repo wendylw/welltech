@@ -271,14 +271,14 @@ var CURRENT_HDB_BTO_PROJECTS = [{
   description: "Part A: Building works at Clementi Neighbourhood 4 Contract 12 (Total: 1,104 Dwelling Units){{\n}}Part B: Contingency works",
   sum: "S$125,000,000.00"
 }, {
-  name: "Ang Mo Kio Court",
+  name: "Ang Mo Kio N2C31",
   imageSrc: "../img/",
   url: "ang-mo-kio-court.html",
   title: "",
   description: "",
   sum: ""
 }, {
-  name: "Bedok North Woods",
+  name: "Bedok N4C9",
   imageSrc: "../img/",
   url: "bedok-north-woods.html",
   title: "",
