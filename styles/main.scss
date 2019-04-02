@@ -94,6 +94,10 @@ button.btn {
   padding-bottom: 0;
   background-color: $gray;
 
+  .close-button {
+    display: none;
+  }
+
   .navbar-nav .nav-link {
     line-height: 1em;
     padding: 15px;
@@ -233,6 +237,7 @@ button.btn {
   }
 
   .header-nav {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -240,6 +245,33 @@ button.btn {
     height: 100%;
     z-index: 1;
     background-color: rgba(85, 85, 85, 0.9);
+
+    .close-button {
+      display: block;
+      text-align: right;
+
+      img {
+        padding: 15px 5px;
+        max-width: 28px;
+      }
+    }
+
+    &.navbar > .container {
+      display: block;
+    }
+
+    .navbar-nav .nav-link {
+      padding: 20px;
+      color: $white;
+    }
+
+    .input-group {
+      display: none;
+    }
+  }
+
+  .navbar-nav {
+    display: block;
   }
 }
 
