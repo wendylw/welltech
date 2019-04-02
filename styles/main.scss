@@ -83,6 +83,10 @@ button.btn {
     padding-bottom: 14px;
   }
 
+  .nav-button {
+    display: none;
+  }
+
   &__logo {
     padding: 10px 0;
     max-width: 250px;
@@ -230,9 +234,38 @@ button.btn {
 }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 3.0rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4,
+  p,
+  label {
+    font-size: 1.2rem;
+  }
+
   .header {
+    .nav-button {
+      float: right;
+      display: block;
+      margin: 2px 0;
+
+      img {
+        padding: 6px 0;
+        max-width: 20px;
+      }
+    }
+
     &__logo {
-      max-width: 150px;
+      max-width: 120px;
     }
   }
 
