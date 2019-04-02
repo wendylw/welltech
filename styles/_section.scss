@@ -11,14 +11,14 @@ section {
 }
 
 .section-blue {
-  padding: 70px 0;
+  padding: 50px 0;
   color: $white;
   background-color: $main-color;
 }
 
 .about-company {
   &__content {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 300px;
 
     p {
@@ -107,17 +107,21 @@ section {
 
 .contact-us {
   .section__title {
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   &__content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
     li {
       line-height: 1.8em;
     }
   }
 
   &__address {
-    margin-right: 0;
+    margin: 0;
   }
 
   &__map {
@@ -136,7 +140,8 @@ section {
   }
 
   &__email {
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-image: url(../img/contact-us-pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
