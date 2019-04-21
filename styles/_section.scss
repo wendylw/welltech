@@ -4,6 +4,24 @@ section {
   }
 }
 
+.flex-grid {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex-grid-middle {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
 .section {
   &__title {
     margin-bottom: 10px;
@@ -87,9 +105,20 @@ section {
 }
 
 .awards {
+  color: $gray;
+
+  .row > div {
+    margin: 15px 0;
+  }
+
   .section__title {
     font-size: 2.0rem;
     font-weight: bold;
+  }
+
+  &__item-title {
+    margin: 0 auto;
+    max-width: 150px;
   }
 
   &__text-list {
@@ -101,7 +130,7 @@ section {
   &__image {
     margin: 0 0 30px;
     max-width: 100%;
-    box-shadow: 3px 3px 10px $light-gray;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 }
 
